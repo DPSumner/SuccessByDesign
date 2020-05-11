@@ -1,0 +1,19 @@
+
+
+//Uses the import to make sure Styling order is done properly (Stops Media queries from being Set before original styles, leading to queries not working)
+
+@import 'about';
+@import 'banner';
+@import 'client';
+@import 'contact';
+@import 'footer';
+@import 'globals';
+@import 'services';
+@import 'technology';
+@import 'testimonials';
+
+//Dev one
+@import 'test';
+
+//Breakpoints
+@import 'breakpoints';

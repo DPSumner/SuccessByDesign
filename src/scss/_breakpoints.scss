@@ -1,0 +1,111 @@
+@media only screen and (max-width: 991px) {
+    .banner {
+
+        padding: 50px;
+
+        header {
+            padding: 20px 50px;
+        }
+
+        .content {
+            h2 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 16px
+            }
+        }
+    }
+
+
+
+    .about {
+        flex-direction: column;
+
+        .contentBox,
+        .imgBox {
+            width: 100%;
+            min-height: 400px;
+            text-align: center;
+        }
+    }
+
+    .services {
+        padding: 50px;
+
+        .container {
+            justify-content: center;
+            margin-top: 20px;
+
+            .serviceBox {
+                margin: 20px;
+                width: 300px;
+                height: 350px;
+            }
+        }
+
+    }
+
+    .technology {
+        padding: 50px;
+        padding-top: 300px;
+        justify-content:center;
+        flex-direction:column;
+
+        .imgBox {
+            margin-top:40px;
+            max-width:250px;
+        }
+    }
+
+    .client {
+        padding: 50px;
+
+        .imgBox {
+            justify-content: center;
+            
+
+        }
+    }
+
+    .testimonials {
+        // .heading {
+        //    text-align:center;
+        //   margin-bottom: -30px;
+        // }
+
+        // .container {
+        //     .contentBox {
+        //         margin-top:30px;
+        //     }
+        // }
+
+        .contentBox {
+            padding:60px 40px;
+            max-width:550px;
+            margin-bottom:40px;
+        }
+
+        .contentBox:last-child {
+            margin-bottom:0;
+        }
+        
+    }
+
+    .contact {
+        padding:50px;
+    }
+
+    .footer {
+        padding:20px 50px;
+        flex-direction:column-reverse;
+        text-align:center;
+       
+
+        ul {
+            margin-bottom:15px;
+        }
+
+    }
+}
