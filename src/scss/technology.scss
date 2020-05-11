@@ -1,0 +1,27 @@
+
+
+.technology {
+    background: #3d8ffc;
+    height:100%;
+    width: 100%;
+    padding:100px;
+    display:flex;
+    margin-top:-300px;
+    padding-top:300px;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    .contentBox {
+        max-width:800px;
+    }
+
+    .imgBox {
+        max-width:250px;
+
+        img {
+            max-width:100%;
+        }
+    }
+}
+
