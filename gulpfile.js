@@ -7,8 +7,7 @@ const cleanCSS = require("gulp-clean-css");
 
 
 function styles(cb) {
-    return gulp.src('./src/scss/*.scss')
-     .pipe(concat('styles.scss'))
+    return gulp.src('./src/scss/main.scss')
      .pipe(sass().on('error', sass.logError))
      .pipe(cleanCSS())
      .pipe(autoprefixer('last 2 versions'))
@@ -17,9 +16,22 @@ function styles(cb) {
 };
 
 
-function dist() {
-    return gulp.src('./src/index.html', './src/styles.css', )
+function dist(done) {
+    gulp.src('./src/index.html')
     .pipe(gulp.dest('./dist'));
+
+    gulp.src('./src/main.css')
+    .pipe(gulp.dest('./dist'));
+
+    gulp.src('./src/js/*')
+        .pipe(gulp.dest('./dist/js'));
+
+    gulp.src('./src/images/*')
+    .pipe(gulp.dest('./dist/images'));
+
+
+
+    done();
 };
 
 function server() {
