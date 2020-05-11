@@ -1,0 +1,26 @@
+
+
+.client {
+    background-color: #162c3b;
+    padding:10px;
+    text-align:center;
+
+    .imgBox {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        img {
+            max-width:200px;
+            margin:20px;
+            opacity:0.25;
+            cursor:pointer;
+
+        }
+
+        img:hover {
+            opacity:1;
+        }
+    }
+}
