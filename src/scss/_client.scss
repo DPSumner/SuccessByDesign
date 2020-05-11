@@ -17,11 +17,13 @@
             margin:20px;
             opacity:0.25;
             cursor:pointer;
+            transition: all 0.2s ease-in;
 
         }
 
         img:hover {
             opacity:1;
+            transition: all 0.2s ease-in;
         }
     }
 }

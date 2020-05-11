@@ -21,6 +21,12 @@
 
         img {
             max-width:100%;
+            transition: all 0.2s linear;
+        }
+        
+        img:hover {
+            filter: invert(1);
+            transition: all 0.2s linear;
         }
     }
 }

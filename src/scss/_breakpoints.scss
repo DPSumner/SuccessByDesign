@@ -10,10 +10,13 @@
         .content {
             h2 {
                 font-size: 36px;
+                margin-bottom:20px;
             }
 
             p {
-                font-size: 16px
+                font-size: 16px;
+                letter-spacing:1px;
+                line-height:1.3em;
             }
         }
     }
@@ -107,5 +110,49 @@
             margin-bottom:15px;
         }
 
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .about {
+        .contentBox {
+            padding:60px 50px;
+        }
+    }
+
+    .services {
+       padding:50px 30px;
+
+       .container {
+            .serviceBox {
+                height:200px;
+                width:250px;
+            }
+       }
+    }
+
+    .technology {
+        margin-top: -350px;
+
+        .contentBox {
+            margin-top:30px;
+            text-align:center;
+        }
+    }
+
+    .testimonials {
+        padding:50px;
+
+        .heading {
+            text-align:center;
+        }
+
+        .container {
+            margin: 40px 20px;
+
+            .contentBox {
+                padding:30px 20px;
+            }
+        }
     }
 }
