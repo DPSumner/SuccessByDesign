@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuccessByDesign</title>
+    <!-- Main Styles file -->
     <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- //Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+   
     <!-- Banner -->
     <div class="banner">
         <header>
             <a href="#" class="logo" >Brand Name</a>
             <div class="toggle" ></div>
         </header>
-        <img src="images/bg.jpg" alt="">
+        <img src="images/bg.jpg">
         <div class="content">
-            <h2>Success by&nbsp;Design</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed iusto debitis consequuntur molestias deleniti, vel est earum pariatur vero cupiditate, aut eaque temporibus quis atque. Obcaecati labore sit ab! Et?</p>
+            <h2 data-aos="fade-in" data-aos-duration="1200">Success by&nbsp;Design</h2>
+            <p data-aos="fade-in" data-aos-duration="1200" data-aos-delay="900">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed iusto debitis consequuntur molestias deleniti, vel est earum pariatur vero cupiditate, aut eaque temporibus quis atque. Obcaecati labore sit ab! Et?</p>
         </div>
 
     </div>
@@ -24,9 +28,9 @@
     <!-- About -->
     <section class="about">
         <div class="contentBox">
-            <h2 class="heading">About Us</h2>
+            <h2 class="heading about-heading-anchor" data-aos="fade-left" data-aos-duration="1000" >About Us</h2>
 
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ad. Optio blanditiis veniam, id deserunt delectus maxime. Maxime voluptatem, dolore quo deleniti, enim ipsam cupiditate ut architecto nemo itaque unde. 
+            <p class="text about-text-anchor" data-aos="fade-right" data-aos-duration="1300" data-aos-anchor=".about-heading-anchor" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ad. Optio blanditiis veniam, id deserunt delectus maxime. Maxime voluptatem, dolore quo deleniti, enim ipsam cupiditate ut architecto nemo itaque unde. 
             <br>
             <br>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente quas quam doloribus blanditiis
@@ -34,7 +38,7 @@
             quis molestias.</p>
         </div>
 
-        <div class="imgBox">
+        <div class="imgBox" data-aos="fade-left" data-aos-duration="1300"  data-aos-anchor=".about-text-anchor" data-aos-delay="300">
         </div>
 
     </section>
@@ -42,13 +46,13 @@
     <!-- Services -->
 
     <section class="services">
-        <h2 class="heading" >
+        <h2 class="heading" id="services" data-aos-duration="800">
             Our Services
         </h2>
 
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minima itaque quos dolores adipisci cupiditate quas iure magnam excepturi id. Ex quas nesciunt esse blanditiis perferendis itaque quod labore ea?</p>
+        <p class="text" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minima itaque quos dolores adipisci cupiditate quas iure magnam excepturi id. Ex quas nesciunt esse blanditiis perferendis itaque quod labore ea?</p>
         <div class="container">
-            <div class="serviceBox">
+            <div class="serviceBox" data-aos="fade-right" data-aos-easing="ease-in-out-cubic" data-aos-duration="500" >
                 <div>
                     <img src="images/icon1.png">
                     <h2>
@@ -57,7 +61,7 @@
                  </div>
             </div>
 
-            <div class="serviceBox">
+            <div class="serviceBox"data-aos="fade-up"  data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
                 <div>
                     <img src="images/icon2.png">
                     <h2>
@@ -66,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="serviceBox">
+            <div class="serviceBox"data-aos="fade-left"  data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
                 <div>
                     <img src="images/icon3.png">
                     <h2>
@@ -83,7 +87,7 @@
 
     <!-- Technology -->
     <section class="technology">
-        <div class="contentBox">
+        <div class="contentBox" data-aos="fade-right" data-aos-duration="700">
             <h2 class="heading" > We use cutting edge technology</h2>
 
             <p class="text">
@@ -91,27 +95,35 @@
             </p>
         </div>
 
-        <div class="imgBox">
+        <div class="imgBox" data-aos="fade-left" data-aos-duration="800" data-aos-delay="500" >
             <img src="images/tech.png" >
         </div>
 
     </section>
 
     <!-- Client-->
-    <section class="client">
-        <h2 class="heading">
+    <section class="client" >
+        <h2 class="heading client-anchor" data-aos="fade-down" data-aos-duration="900">
             Our Clients
         </h2>
 
-        <p class="text">
+        <p class="text" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300" data-aos-duration="900" data-aos-anchor = ".client-anchor">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint cupiditate quidem expedita. Quasi vero labore perferendis vitae eaque? Sunt minus veritatis ex sint mollitia rerum nisi quam minima aperiam deleniti!
         </p>
         
         <div class="imgBox">
-            <img src="images/brand1.png" alt="">
-            <img src="images/brand2.png" alt="">
-            <img src="images/brand3.png" alt="">
-            <img src="images/brand4.png" alt="">
+            <div data-aos="fade-down" data-aos-duration="700" data-aos-easing="ease-in-out-cubic">
+                <img src="images/brand1.png"  alt="">
+            </div>
+            <div data-aos="fade-down" data-aos-duration="700" data-aos-delay="100" data-aos-easing="ease-in-out-cubic">
+                <img src="images/brand2.png" alt="">
+            </div>
+            <div data-aos="fade-down" data-aos-duration="700" data-aos-delay="200" data-aos-easing="ease-in-out-cubic">
+                <img src="images/brand3.png" alt="">
+            </div>
+            <div data-aos="fade-down" data-aos-duration="700" data-aos-delay="300" data-aos-easing="ease-in-out-cubic">
+                <img src="images/brand4.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -122,7 +134,7 @@
             What our clients say
         </h2>
         <div class="container">
-            <div class="contentBox">
+            <div class="contentBox" data-aos="slide-right">
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facere quo maxime illo
@@ -135,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="contentBox">
+            <div class="contentBox" data-aos="slide-left">
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facere quo maxime illo
@@ -210,6 +222,17 @@
             <li> <a href="#"> <img src="images/linkedin.png" alt=""></a></li>
         </ul>
     </section>
+
+   
+   
+    <!-- Scripts -->
+        <!-- Animate on scroll -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true
+        });
+    </script>
 
     
 </body>

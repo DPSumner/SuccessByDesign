@@ -1,4 +1,4 @@
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1000px) {
     .banner {
 
         padding: 50px;
@@ -54,7 +54,11 @@
         padding: 50px;
         padding-top: 300px;
         justify-content:center;
-        flex-direction:column;
+        // flex-direction:column;
+
+        .contentBox {
+            padding-right:20px;
+        }
 
         .imgBox {
             margin-top:40px;
@@ -113,7 +117,7 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
     .about {
         .contentBox {
             padding:60px 50px;
@@ -133,7 +137,7 @@
 
     .technology {
         margin-top: -350px;
-
+        flex-direction:column;
         .contentBox {
             margin-top:30px;
             text-align:center;
@@ -155,4 +159,16 @@
             }
         }
     }
+}
+
+@media only screen and (max-width:1250px) {
+.services {
+    .container {
+        justify-content: center;
+       .serviceBox {
+           margin-left:20px;
+           margin-right:20px;
+       }
+    }
+}
 }
