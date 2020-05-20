@@ -1,0 +1,86 @@
+
+
+.contact {
+    padding: 100px;
+    background-color: #162c3b;
+    text-align:center;
+}
+
+.imageBox2 {
+    background: url(/images/bg2.jpg);
+    background-size:cover;
+    background-position: center;
+    width:50%
+}
+
+.redbg {
+    background:url(images/red.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.form {
+
+    .inputBox {
+        margin-bottom:40px;
+
+        input {
+            width:100%;
+            background: transparent;
+            box-shadow:none;
+            border:none;
+            outline:none;
+            padding:10px 0;
+            font-size:18px;
+            font: weight 300l;color:#fff;
+            border-bottom: 2px solid #fff;
+        }
+
+        input::placeholder {
+            color:#fff;
+        }
+
+        textarea {
+            width: 100%;
+            background: transparent;
+            box-shadow: none;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            font-size: 18px;
+            font: weight 300l;
+            color: #fff;
+            min-height:150px;
+            border-bottom: 2px solid #fff;
+        }
+
+        textarea::placeholder {
+            color: #fff;
+        }
+
+        button[type="submit"] {
+            width:150px;
+            height:50px;
+            background-color:#ffffff;
+            color:#111;
+            cursor:pointer;
+            border:none;
+            font-size:18px;
+        
+        }
+
+        // button[type="submit"] {
+        //     width: 150px;
+        //     height: 40px;
+        //     background-color: #ffffff;
+        //     color: #111;
+        //     cursor: pointer;
+        //     border: none;
+        //     font-size: 18px;
+
+        // }
+    }
+
+
+
+}

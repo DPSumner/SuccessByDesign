@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1000px) {
+    .banner {
+
+        padding: 50px;
+
+        header {
+            padding: 20px 50px;
+        }
+
+        .content {
+            h2 {
+                font-size: 36px;
+                margin-bottom:20px;
+            }
+
+            p {
+                font-size: 16px;
+                letter-spacing:1px;
+                line-height:1.3em;
+            }
+        }
+    }
+
+
+
+    .about {
+        flex-direction: column;
+
+        .contentBox,
+        .imgBox {
+            width: 100%;
+            min-height: 400px;
+            text-align: center;
+        }
+    }
+
+    .services {
+        padding: 50px;
+
+        .container {
+            justify-content: center;
+            margin-top: 20px;
+
+            .serviceBox {
+                margin: 20px;
+                width: 300px;
+                height: 350px;
+            }
+        }
+
+    }
+
+    .technology {
+        padding: 50px;
+        padding-top: 300px;
+        justify-content:center;
+        // flex-direction:column;
+
+        .contentBox {
+            padding-right:20px;
+        }
+
+        .imgBox {
+            margin-top:40px;
+            max-width:250px;
+        }
+    }
+
+    .client {
+        padding: 50px;
+
+        .imgBox {
+            justify-content: center;
+            
+
+        }
+    }
+
+    .testimonials {
+        // .heading {
+        //    text-align:center;
+        //   margin-bottom: -30px;
+        // }
+
+        // .container {
+        //     .contentBox {
+        //         margin-top:30px;
+        //     }
+        // }
+
+        .contentBox {
+            padding:60px 40px;
+            max-width:550px;
+            margin-bottom:40px;
+        }
+
+        .contentBox:last-child {
+            margin-bottom:0;
+        }
+        
+    }
+
+    .contact {
+        padding:50px;
+    }
+
+    .footer {
+        padding:20px 50px;
+        flex-direction:column-reverse;
+        text-align:center;
+       
+
+        ul {
+            margin-bottom:15px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about {
+        .contentBox {
+            padding:60px 50px;
+        }
+    }
+
+    .services {
+       padding:50px 30px;
+
+       .container {
+            .serviceBox {
+                height:200px;
+                width:250px;
+            }
+       }
+    }
+
+    .technology {
+        margin-top: -350px;
+        flex-direction:column;
+        .contentBox {
+            margin-top:30px;
+            text-align:center;
+        }
+    }
+
+    .testimonials {
+        padding:50px;
+
+        .heading {
+            text-align:center;
+        }
+
+        .container {
+            margin: 40px 20px;
+
+            .contentBox {
+                padding:30px 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1250px) {
+.services {
+    .container {
+        justify-content: center;
+       .serviceBox {
+           margin-left:20px;
+           margin-right:20px;
+       }
+    }
+}
+}

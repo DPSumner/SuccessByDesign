@@ -1,0 +1,36 @@
+
+
+.testimonials {
+    position:relative;
+    padding:100px;
+    background-color:#12222d;
+    overflow:hidden;
+
+    .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:40px;
+        flex-wrap:wrap;
+
+        .contentBox {
+            background: #ffffff;
+            padding:60px 50px;
+            width:550px;
+            display:flex;
+            justify-content: center;
+            text-align:left
+
+            p {
+                font-style: italic;
+            }
+
+            h3 {
+                width:100%;
+                text-align:end;
+                font-weight:500;
+                color:#3f8ffc
+            }
+        }
+    }
+}

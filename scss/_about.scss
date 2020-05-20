@@ -1,0 +1,28 @@
+
+
+.about {
+    position:relatice;
+    width: 100%;
+    display:flex;
+    background-color: #162c3b;
+    overflow:hidden;
+
+
+    .contentBox {
+        background-color: #162c3b;
+        padding:100px;
+        width:50%;
+
+    }
+    
+    .imgBox {
+        background: url(images/window.jpg);
+        width:50%;
+        background-size: cover;
+        background-position: center;
+        
+    }
+};
+
+
+
